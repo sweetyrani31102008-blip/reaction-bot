@@ -1,0 +1,5 @@
+services:
+  - type: worker
+    name: telegram-reaction-bot
+    runtime: python
+    startCommand: python main.py
